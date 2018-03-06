@@ -13,6 +13,7 @@ public class BusTest {
     public void before() {
         bus = new Bus("Ocean Terminal", 2);
         person = new Person();
+        busStop = new BusStop("Primrose St");
     }
 
     @Test
